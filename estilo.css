@@ -1,20 +1,87 @@
-.logo{
-    width: 15%;
-}
+
 div#escola{
     display: flex;
     align-items: center;
     background-color: rgb(64, 242, 64);
 }
 
+div#escola input,#escola h1{
+    padding: 10px;
+}
+
+div#escola input{
+    margin-left: 50px;
+}
+
 div#escola h1{
-    font-family: Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+.logo{
+    width: 15%;
 }
 .titulo{
     background-color: green;
     margin-top: -30px;
-    height: 50px;
+    height: 53px;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
+}
+
+.principal{
+    height: 300px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 3px;
+}
+
+.pricipal,.conteudo-principal{
+    padding: 40px;
+}
+
+.conteudo-principal{
+    background-color: rgb(7, 103, 50);
+}
+
+.conteudo-principal h1{
+    text-align: center;
+    text-shadow: 1px 1px 4px ;
+}
+
+.conteudo-principal p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.maleficios{
+    margin-top: 50px;
+    border-top: 1px solid #000000;
+}
+
+.maleficios h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.maleficios p{
+    background-color: rgb(184, 231, 254);
+    box-shadow: 1px 2px 2px 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rodape{
+    background-color: #000000;
+    text-align: center;
+    height: 60px;
+}
+
+.rodape img{
+    margin-top: -16px;
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.rodape p{
+    color: white;
 }
